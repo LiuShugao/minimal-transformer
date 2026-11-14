@@ -1,4 +1,6 @@
 .pth filter=lfs diff=lfs merge=lfs -text
 *corpus* filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.jsonl filter=lfs diff=lfs merge=lfs -text
 /docs/story_merge.jsonl filter=lfs diff=lfs merge=lfs -text
 /gpt_model.pth filter=lfs diff=lfs merge=lfs -text
